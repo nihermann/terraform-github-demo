@@ -8,7 +8,7 @@ terraform {
 
   # Remote backend
   backend "azurerm" {
-    resource_group_name  = "tfstate"       # Change to your own resource group name
+    resource_group_name  = "tfstate"     # Change to your own resource group name
     storage_account_name = "tfstate4929" # Change to your own storage account name
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
